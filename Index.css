@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  font-family: "M PLUS 1", sans-serif;
+}
+
+section {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+header {
+  height: 150px;
+  width: 100vw;
+  background-color: #da2c38;
+  font-size: 100px;
+  text-align: center;
+  border-bottom: 2px double black;
+}
+
+body {
+  background-color: #87c38f;
+  display: flex;
+  flex-direction: column;
+}
+
+.Hobbies {
+  background-color: #f4f0bb;
+  height: 400px;
+  width: 500px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px black;
+}
+
+.Skills {
+  background-color: #f4f0bb;
+  height: 250px;
+  width: 500px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px black;
+}
+
+.Career {
+  background-color: #f4f0bb;
+  height: 300px;
+  width: 700px;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px black;
+}
+
+li {
+  font-size: 40px;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  background-color: #da2c38;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.picture {
+  height: 400px;
+  width: 700px;
+  background-image: url("https://drive.google.com/uc?export=view&id=1NYK_HFLid03BdziKcWrKxZm8umvxDmzZ");
+  background-size: cover;
+  position: relative;
+  top: 400px;
+  left: 200px;
+}
+
+.buttons {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-right: 200px;
+  position: relative;
+  bottom: 200px;
+}
+
+#color,#place,#ritual {
+  color: black;
+  padding: 10px 30px;
+  margin: 10px;
+  background: none;
+  border: none;
+  border-radius: 20px;
+}
+
+#color:hover {
+  background: #0069CC;
+  color: #111;
+  box-shadow: 0 0 50px #0069CC;
+  transition-delay: 0.5s;
+  cursor: pointer;
+}
+
+
+#place:hover {
+    background: #E0E0E0;
+    color: #111;
+    box-shadow: 0 0 50px #E0E0E0;
+    transition-delay: 0.5s;
+    cursor: pointer;
+}
+
+#ritual:hover {
+    background: #FF6700;
+    color: #111;
+    box-shadow: 0 0 50px #FF6700;
+    transition-delay: 0.5s;
+    cursor: pointer;
+}
+

@@ -1,4 +1,4 @@
-console.log("connected");
+// console.log("connected");
 
 const favColor = document.querySelector("#color");
 const favPlace = document.querySelector("#place");

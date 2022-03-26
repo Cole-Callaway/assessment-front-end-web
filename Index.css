@@ -80,6 +80,8 @@ p {
   left: 200px;
 }
 
+/* Didn't see that i had to make the button yellow until after I turned in hope this is alright. */
+
 .buttons {
   display: flex;
   align-items: flex-end;

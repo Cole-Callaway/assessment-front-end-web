@@ -7,7 +7,7 @@ section {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
-  margin-right: 20px;
+  margin-right: 100px;
 }
 
 header {
@@ -29,7 +29,7 @@ body {
   background-color: #f4f0bb;
   height: 400px;
   width: 500px;
- 
+
   border-radius: 20px;
   box-shadow: 10px 10px 5px 0px black;
 }
@@ -45,7 +45,7 @@ body {
 
 .Career {
   background-color: #f4f0bb;
-  height: 350px;
+  height: 300px;
   width: 750px;
   margin-top: 50px;
   margin-left: 100px;
@@ -89,7 +89,9 @@ p {
   bottom: 200px;
 }
 
-#color,#place,#ritual {
+#color,
+#place,
+#ritual {
   color: black;
   padding: 10px 30px;
   margin: 10px;
@@ -100,27 +102,31 @@ p {
 }
 
 #color:hover {
-  background: #0069CC;
+  background: #0069cc;
   color: #111;
-  box-shadow: 0 0 50px #0069CC;
-  transition-delay: 0.5s;
+  box-shadow: 0 0 50px #0069cc;
+  transition-delay: 0.1s;
   cursor: pointer;
 }
 
-
 #place:hover {
-    background: #E0E0E0;
-    color: #111;
-    box-shadow: 0 0 50px #E0E0E0;
-    transition-delay: 0.5s;
-    cursor: pointer;
+  background: #e0e0e0;
+  color: #111;
+  box-shadow: 0 0 50px #e0e0e0;
+  transition-delay: 0.1s;
+  cursor: pointer;
 }
 
 #ritual:hover {
-    background: #FF6700;
-    color: #111;
-    box-shadow: 0 0 50px #FF6700;
-    transition-delay: 0.5s;
-    cursor: pointer;
+  background: #ff6700;
+  color: #111;
+  box-shadow: 0 0 50px #ff6700;
+  transition-delay: 0.1s;
+  cursor: pointer;
 }
 
+#color:active,
+#place:active,
+#ritual:active {
+  transform: scale(1, 1.5);
+}

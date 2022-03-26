@@ -29,7 +29,7 @@ body {
   background-color: #f4f0bb;
   height: 400px;
   width: 500px;
-  margin-top: 50px;
+ 
   border-radius: 20px;
   box-shadow: 10px 10px 5px 0px black;
 }
@@ -45,8 +45,8 @@ body {
 
 .Career {
   background-color: #f4f0bb;
-  height: 300px;
-  width: 700px;
+  height: 350px;
+  width: 750px;
   margin-top: 50px;
   margin-left: 100px;
   border-radius: 20px;
@@ -54,8 +54,8 @@ body {
 }
 
 li {
-  font-size: 40px;
-  display: flex;
+  font-size: 35px;
+  /* display: flex; */
 }
 
 h1 {
@@ -63,6 +63,7 @@ h1 {
   background-color: #da2c38;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  font-size: 60px;
 }
 
 p {
@@ -95,6 +96,7 @@ p {
   background: none;
   border: none;
   border-radius: 20px;
+  font-size: 25px;
 }
 
 #color:hover {
